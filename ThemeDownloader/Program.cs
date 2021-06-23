@@ -11,6 +11,7 @@ namespace ThemeDownloader
 {
     class Program
     {
+        static string Root = Environment.CurrentDirectory + "\\Sites\\";
         static async Task Main(string[] args)
         {
             Console.WriteLine("Enter Site URL:");
@@ -55,7 +56,7 @@ namespace ThemeDownloader
         }
         public static async Task SaveFiles(string siteUrl, string siteFolderName, List<string> tags, IHttpClientHelper downloader)
         {
-            string Root = Environment.CurrentDirectory + "\\Sites\\" + siteFolderName + "\\";
+            Root += siteFolderName + "\\";
             //Create site root path
             if (!Directory.Exists(Root))
             {
