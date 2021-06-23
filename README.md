@@ -10,3 +10,5 @@ And then enter a name for theme folder
 Just this
 <img src="https://github.com/AliAminiP/ThemeDownloader/blob/master/ThemeDownloader/Files/ThemeDownloader3.jpg">
 <img src="https://github.com/AliAminiP/ThemeDownloader/blob/master/ThemeDownloader/Files/ThemeDownloader4.jpg">
+
+Note: you can change themes save path in program.cs
